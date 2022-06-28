@@ -1,6 +1,6 @@
 export const TEST_LOCATORS = {
 
-    header: '.grid.gap-y-6.justify-items-center h1',
+    subsriptionForm: '#subscription-form',
     inputName: 'input[name=name]',
     inputEmail: 'input[name=email]',
 
