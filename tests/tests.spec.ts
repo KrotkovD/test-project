@@ -81,7 +81,7 @@ test.describe('Tests', async () => {
 
     test.describe('positive tests', async () => {
 
-        test.only('check request data', async ({page}) => {
+        test('check request data', async ({page}) => {
             await page.waitForSelector(TEST_LOCATORS.subsriptionForm);
             await page.locator(TEST_LOCATORS.inputName).fill('qwerty');
             await page.locator(TEST_LOCATORS.inputEmail).fill('test@test.test');
